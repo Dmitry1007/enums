@@ -38,9 +38,7 @@ class ReducePatternTest < Minitest::Test
       phrase.gsub!(word, word.upcase)
     end
     assert_equal 'one FISH two FISH red FISH BLUE FISH', phrase
-  end
-
-  # what kind of situation would lead to using this tool? 
+  end 
 
   def test_divide_560_by_a_bunch_of_numbers
     numbers = [2, 2, 2, 5, 7]
